@@ -1,0 +1,5 @@
+<import src="../templates/volItem.wxml"/>
+
+<view class="container">
+  <template is="vol-item" data="{{item: detail}}"/>
+</view>

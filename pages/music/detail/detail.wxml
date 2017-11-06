@@ -1,0 +1,5 @@
+<import src="../templates/musicItem.wxml" />
+
+<view class="container">
+  <template is="music-item" data="{{item: detail}}" />
+</view>
